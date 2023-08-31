@@ -3,7 +3,6 @@ import OneSignal from 'react-onesignal';
 import PWAPrompt from 'react-ios-pwa-prompt';
 
 const api = {
-  key: "61ae3c88e444a235897bb4086e509977",
   base: "https://api.openweathermap.org/data/2.5/"
 }
 
@@ -24,7 +23,7 @@ function App() {
         setErrorMessage('Please enter a City!');
         setShowLocationBox(false);
       } else {
-        fetch(`${api.base}weather?q=${query}&appid=${api.key}&units=metric`)
+        fetch(`${api.base}weather?q=${query}&appid=${process.env.REACT_APP_API_KEY}&units=metric`)
           .then(res => res.json())
           .then(result => {
             setWeather(result);
