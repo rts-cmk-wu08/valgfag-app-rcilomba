@@ -49,19 +49,19 @@ function App() {
     return `${day} ${date} ${month} ${year}`
   }
 
-  let className = 'app';
+  let classNameApp = 'app';
 
   if (typeof weather.main !== "undefined") {
     if (weather.main.temp > 28) {
-      className = 'app hot';
+      classNameApp = 'app hot';
     } else if (weather.main.temp > 16) {
-      className = 'app warm';
+      classNameApp = 'app warm';
     }
   }
 
   return (
     <>
-    <div className={className}>
+    <div className={classNameApp}>
       <main>
         <div className="search-box">
           <input type="text"
