@@ -91,7 +91,7 @@ function App() {
         ) : null}
       </main>
     </div>
-    <PWAPrompt copyTitle="Add to homescreen" />
+    <PWAPrompt copyTitle="Add to homescreen!" />
     </>
   );
 }
