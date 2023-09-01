@@ -10,3 +10,5 @@ Appens vigtigste funktion er, at du kan se vejret for den aktuelle by, altså de
 I dette tilfælde er det ikke nødvendigt med en router, da denne app er en enkeltsideapplikation, men heller ikke har en navigation.
 
 Hvis jeg havde mere tid, ville jeg gerne have tilføjet vejr for 5 plus dage og ikke kun en dag for det aktuelle tidspunkt. Samt tilføje meteorologiikon.
+
+https://deft-squirrel-728ebd.netlify.app/
